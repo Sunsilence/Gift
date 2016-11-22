@@ -45,6 +45,7 @@
 		E8AB3B4A1DE3356F0027E6B7 /* MineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineController.m; sourceTree = "<group>"; };
 		E8AB3B4E1DE3356F0027E6B7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		E8AB3B4F1DE3356F0027E6B7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E8C88E621DE46334004DADE0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +270,7 @@
 			children = (
 				E8AB3B4E1DE3356F0027E6B7 /* BaseViewController.h */,
 				E8AB3B4F1DE3356F0027E6B7 /* BaseViewController.m */,
+				E8C88E621DE46334004DADE0 /* PrefixHeader.pch */,
 			);
 			path = public;
 			sourceTree = "<group>";
@@ -314,8 +316,7 @@
 				TargetAttributes = {
 					E8AB3B191DE334A90027E6B7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 99JYB4852D;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -529,7 +530,7 @@
 			baseConfigurationReference = C6A2E2D00F7B9ACF12AD848A /* Pods-Gift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 99JYB4852D;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Gift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1000phone.Gift;
@@ -542,7 +543,7 @@
 			baseConfigurationReference = AB2AB7F2D404D9B1FC93155D /* Pods-Gift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 99JYB4852D;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Gift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1000phone.Gift;
