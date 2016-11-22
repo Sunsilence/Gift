@@ -12,4 +12,26 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+
+
 #endif /* PrefixHeader_pch */
+
+//首页-精选
+//http://img03.liwushuo.com/image/161111/tl4dbnr7q.jpg-w720 2*3url
+
+//http://api.liwushuo.com/v2/banners  scrollView  url
+
+//http://api.liwushuo.com/v2/channels/101/items_v2?ad=2&gender=1&generation=2&limit=20&offset=0   cell  url
+
+//首页-关注
+//http://api.liwushuo.com/v2/columns/follow_posts?limit=20&offset=0
+
+//首页-送女票
+
+//http://api.liwushuo.com/v2/channels/10/items_v2?gender=1&limit=20&offset=0&generation=2
+
+//首页-海淘
+//http://api.liwushuo.com/v2/channels/129/items_v2?gender=1&limit=20&offset=0&generation=2
+
+
+
