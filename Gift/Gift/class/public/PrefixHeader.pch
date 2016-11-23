@@ -2,7 +2,7 @@
 //  PrefixHeader.pch
 //  Gift
 //
-//  Created by Silence on 16/11/22.
+//  Created by Silence on 16/11/23.
 //  Copyright © 2016年 Silence. All rights reserved.
 //
 
@@ -12,9 +12,25 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#ifdef __OBJC__
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import <AFNetworking/AFNetworking.h>
+#import <JSONModel/JSONModel.h>
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import "GiftDowloader.h"
+
+
+#endif
 
 #endif /* PrefixHeader_pch */
+
+
 
 //首页-精选
 //http://img03.liwushuo.com/image/161111/tl4dbnr7q.jpg-w720 2*3url
@@ -32,6 +48,3 @@
 
 //首页-海淘
 //http://api.liwushuo.com/v2/channels/129/items_v2?gender=1&limit=20&offset=0&generation=2
-
-
-
