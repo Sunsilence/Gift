@@ -24,6 +24,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 
 #import "GiftDowloader.h"
+#import "UIView+Extension.h"
 
 
 #endif
@@ -39,12 +40,55 @@
 
 //http://api.liwushuo.com/v2/channels/101/items_v2?ad=2&gender=1&generation=2&limit=20&offset=0   cell  url
 
-//首页-关注
-//http://api.liwushuo.com/v2/columns/follow_posts?limit=20&offset=0
 
-//首页-送女票
+//http://api.liwushuo.com/v2/columns/follow_posts?limit=20&offset=0  -关注
 
-//http://api.liwushuo.com/v2/channels/10/items_v2?gender=1&limit=20&offset=0&generation=2
+//http://api.liwushuo.com/v2/channels/10/items_v2?gender=1&limit=20&offset=0&generation=2   -送女票
 
-//首页-海淘
-//http://api.liwushuo.com/v2/channels/129/items_v2?gender=1&limit=20&offset=0&generation=2
+//http://api.liwushuo.com/v2/channels/129/items_v2?gender=1&limit=20&offset=0&generation=2   -海淘
+
+//http://api.liwushuo.com/v2/channels/125/items_v2?gender=1&limit=20&offset=0&generation=2   -创意生活
+
+//http://api.liwushuo.com/v2/channels/26/items_v2?gender=1&limit=20&offset=0&generation=2   -送基友
+
+//http://api.liwushuo.com/v2/channels/6/items_v2?gender=1&limit=20&offset=0&generation=2   -送爸妈
+
+//http://api.liwushuo.com/v2/channels/17/items_v2?gender=1&limit=20&offset=0&generation=2   -送同事
+
+//http://api.liwushuo.com/v2/channels/127/items_v2?gender=1&limit=20&offset=0&generation=2   -设计感
+
+//http://api.liwushuo.com/v2/channels/14/items_v2?gender=1&limit=20&offset=0&generation=2   -文艺风
+
+//http://api.liwushuo.com/v2/channels/126/items_v2?gender=1&limit=20&offset=0&generation=2   -奇葩搞怪
+
+//http://api.liwushuo.com/v2/channels/28/items_v2?gender=1&limit=20&offset=0&generation=2   -科技范
+
+//http://api.liwushuo.com/v2/channels/121/items_v2?gender=1&limit=20&offset=0&generation=2   -数码
+
+//http://api.liwushuo.com/v2/channels/11/items_v2?gender=1&limit=20&offset=0&generation=2   -萌萌哒
+
+//http://api.liwushuo.com/v2/channels/124/items_v2?gender=1&limit=20&offset=0&generation=2   -凹凸曼
+
+
+
+//榜单-Nav_scroll
+//http://api.liwushuo.com/v2/ranks_v2/ranks
+
+//http://api.liwushuo.com/v2/ranks_v3/ranks/1?limit=20&offset=0  -每日推荐
+
+//http://api.liwushuo.com/v2/ranks_v3/ranks/2?limit=20&offset=0  -TOP100
+
+//http://api.liwushuo.com/v2/ranks_v3/ranks/3?limit=20&offset=0  -独立原创榜
+
+//http://api.liwushuo.com/v2/ranks_v3/ranks/4?limit=20&offset=0  -新星榜
+
+
+//分类
+//http://api.liwushuo.com/v2/search/hot_words
+//http://api.liwushuo.com/v2/search/hot_words_v2   -搜索-热词
+
+//http://api.liwushuo.com/v2/item_categories/tree  -单品
+
+//
+
+//http://api.liwushuo.com/v2/channel_groups/all    -攻略-Cell

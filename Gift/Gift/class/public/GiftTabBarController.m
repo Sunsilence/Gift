@@ -7,6 +7,9 @@
 //
 
 #import "GiftTabBarController.h"
+#import "HomePageController.h"
+#import "UIView+Extension.h"
+#import "Const.h"
 
 @interface GiftTabBarController ()
 
@@ -14,15 +17,20 @@
 
 @implementation GiftTabBarController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     [UITabBar appearance].tintColor=[UIColor colorWithRed:255.0f/255.0f green:66.0f/255.0f blue:88.0f/255.0f alpha:1.0f];
     
+    
     [self createViewControllers];
+
 }
 
+
+#pragma mark --
 -(void)createViewControllers{
     //1 首页
     [self addSubController:@"HomePageController" imageName:@"tab_icon_home_default" selectImageName:@"tab_icon_home_Select" title:@"首页"];
@@ -59,6 +67,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
