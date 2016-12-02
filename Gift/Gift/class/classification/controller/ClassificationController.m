@@ -34,5 +34,15 @@
     // Pass the selected object to the new view controller.
 }
 */
+//分类
+//http://api.liwushuo.com/v2/search/hot_words  -搜索-热词
+//http://api.liwushuo.com/v2/search/hot_words_v2
 
+//http://api.liwushuo.com/v2/item_categories/tree  -单品
+
+//
+
+//http://api.liwushuo.com/v2/channel_groups/all    -攻略-Cell
+
+//http://api.liwushuo.com/v2/columns  - 攻略-栏目
 @end

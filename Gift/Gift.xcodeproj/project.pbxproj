@@ -1024,6 +1024,7 @@
 		E8C8AB401DE473BE004DADE0 /* wifi_pic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C8A75A1DE473BC004DADE0 /* wifi_pic@2x.png */; };
 		E8C8AB411DE473BE004DADE0 /* wifi_pic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C8A75B1DE473BC004DADE0 /* wifi_pic@3x.png */; };
 		E8C8AB421DE473BE004DADE0 /* yw_1222.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C8A75C1DE473BC004DADE0 /* yw_1222.jpg */; };
+		E8D558761DEEDAEE0058DEDE /* ClassifyStrategyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D558751DEEDAEE0058DEDE /* ClassifyStrategyModel.m */; };
 		E8E7127E1DEBD92F0023F94F /* HomeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E7127D1DEBD92F0023F94F /* HomeMenuViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -2064,6 +2065,8 @@
 		E8C8A75A1DE473BC004DADE0 /* wifi_pic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi_pic@2x.png"; sourceTree = "<group>"; };
 		E8C8A75B1DE473BC004DADE0 /* wifi_pic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi_pic@3x.png"; sourceTree = "<group>"; };
 		E8C8A75C1DE473BC004DADE0 /* yw_1222.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
+		E8D558741DEEDAEE0058DEDE /* ClassifyStrategyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyStrategyModel.h; sourceTree = "<group>"; };
+		E8D558751DEEDAEE0058DEDE /* ClassifyStrategyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyStrategyModel.m; sourceTree = "<group>"; };
 		E8E7127C1DEBD92F0023F94F /* HomeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMenuViewController.h; sourceTree = "<group>"; };
 		E8E7127D1DEBD92F0023F94F /* HomeMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2907,6 +2910,8 @@
 		E8AB3B391DE3356F0027E6B7 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E8D558741DEEDAEE0058DEDE /* ClassifyStrategyModel.h */,
+				E8D558751DEEDAEE0058DEDE /* ClassifyStrategyModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -4457,6 +4462,7 @@
 				E8E7127E1DEBD92F0023F94F /* HomeMenuViewController.m in Sources */,
 				E831FBF21DE530EF005B59B4 /* GiftDowloader.m in Sources */,
 				E8AB3B551DE3356F0027E6B7 /* BaseViewController.m in Sources */,
+				E8D558761DEEDAEE0058DEDE /* ClassifyStrategyModel.m in Sources */,
 				E8AB3B521DE3356F0027E6B7 /* HomePageController.m in Sources */,
 				E8AB3B511DE3356F0027E6B7 /* ClassificationController.m in Sources */,
 				E8AB3B531DE3356F0027E6B7 /* ListController.m in Sources */,
